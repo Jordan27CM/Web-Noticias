@@ -1,0 +1,20 @@
+# Node
+node_modules/
+frontend/node_modules/
+
+# Build
+frontend/dist/
+
+# Env
+.env
+*.env
+!.env.example
+backend/.env
+frontend/.env
+
+# Firebase keys
+backend/keys/*.json
+!backend/keys/.gitkeep
+
+# OS
+.DS_Store
