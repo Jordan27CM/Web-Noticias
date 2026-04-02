@@ -1,0 +1,13 @@
+{
+  "name": "web-noticias/backend",
+  "description": "API base en PHP para Web Noticias",
+  "type": "project",
+  "require": {
+    "php": "^8.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  }
+}
